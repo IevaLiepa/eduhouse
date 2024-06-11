@@ -1,0 +1,35 @@
+/* css, calc aplink visus matematinius operatorius nutina deti tarpus
+pvz: width: calc(100% - 200px); 
+*/
+*{
+    box-sizing: border-box;
+}
+body {
+     display: inline-block;
+     width: 100%;
+     margin: 0;
+ }
+
+ aside {
+
+     background-color: aqua;
+     width: 280px;
+     float: left;
+     height: 500px;
+     border: 20px solid red;
+     padding: 20px;
+ }
+
+ main {
+     background-color: pink;
+     width: calc((100% - 280px) / 2);
+     float: left;
+     height: 500px;
+
+ }
+ div {
+    background-color: greenyellow;
+        width: calc(( 100% - 280px) / 2);
+        float: left;
+        height: 500px;
+ }
