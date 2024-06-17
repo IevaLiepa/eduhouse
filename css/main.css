@@ -20,7 +20,7 @@ aside {
     float: left;
     height: 500px;
     padding: 40px;
-    border: 50px solid red;
+    border: 20px solid rgb(255, 0, 170);
 }
 
 main,
@@ -45,6 +45,7 @@ section {
 p {
     border: 1px solid red;
     margin-bottom: 10px;
+}
 
     main {
         background-color: white;
@@ -60,4 +61,18 @@ p {
 
     p:last-child {
         background-color: yellow;
+    }
+
+    .pomidoras{
+        background-color: blue;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+    }
+    .agurkas{
+        width: 150px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: green;
     }
